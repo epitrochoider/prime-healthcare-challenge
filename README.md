@@ -13,28 +13,28 @@ Navigation: Doctors, Nurses, Staff, Employee Reports
 
 # Prime Assessment Requirements:
 
-1. DONE: Create an Angular (version 4) app that consumes some type of public JSON web service and uses the results - your choice on which web service and which control.
+1. **Completed:** Create an Angular (version 4) app that consumes some type of public JSON web service and uses the results - your choice on which web service and which control.
  
-2. DONE: Demonstrates understanding of module and component architecture
+2. **Completed:** Demonstrates understanding of module and component architecture
  
-3. DONE: Demonstrate use of RxJS
+3. **Completed:** Demonstrate use of RxJS
  
-4. DONE: Include at least one unit test
+4. **Completed:** Include at least one unit test
  
-5. DONE: Use best practices - clean code, comments, error handling, etc
+5. **Completed:** Use best practices - clean code, comments, error handling, etc
  
-6. DONE: Track how long it takes you to complete this task
+6. **Completed:** Track how long it takes you to complete this task
  
-7. DONE: Put the project on Github and send it back for review
+7. **Completed:** Put the project on Github and send it back for review
  
-8. DONE: Utilizes component routing
+8. **Completed:** Utilizes component routing
  
-9. DONE: Demonstrate data binding
+9. **Completed:** Demonstrate data binding
  
-10. DONE: Demonstrate passing data between components with Inputs
+10. **Completed:** Demonstrate passing data between components with Inputs
  
-11. DONE: Demonstrate a basic understanding of HTML/CSS for UI layout and styling
+11. **Completed:** Demonstrate a basic understanding of HTML/CSS for UI layout and styling
  
-Extra credit for:
+# Prime Assessment Requirements:
 1. Using zone.js - Using, but not yet deliberately
-2. DONE: Demonstrate use of functional programming and be prepared to share why it's a good fit for the case you choose
+2. **Completed:** Demonstrate use of functional programming and be prepared to share why it's a good fit for the case you choose
