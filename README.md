@@ -23,7 +23,7 @@ Navigation: Doctors, Nurses, Staff, Employee Reports
  
 5. **Completed:** Use best practices - clean code, comments, error handling, etc
  
-6. **Completed:** Track how long it takes you to complete this task
+6. **Completed:** Track how long it takes you to complete this task (Total hours: 19 hours)
  
 7. **Completed:** Put the project on Github and send it back for review
  
