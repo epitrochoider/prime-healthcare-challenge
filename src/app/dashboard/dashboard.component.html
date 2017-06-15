@@ -1,0 +1,106 @@
+<h3>Welcome / Review</h3>
+<p>This application was created by <strong><a href="http://chaserichardson.com" target="_blank">Chase Richardson</a></strong> to showcase the creation of an angular app in response to a challenge from Prime Healthcare Services. Here are the requirements.</p>
+
+<h4>Prime Assessment:</h4>
+<ol>
+	<li>
+		<p><i class="icon-checkmark green"></i> Create an Angular (version 4) app that consumes some type of public JSON web service and uses the results - your choice on which web service and which control.</p>
+		<ul class="content-list">
+			<li>Application was built using Angular 4.0.3.</li>
+			<li>The app mimics a very basic level of employee management for a hospital, and the employee module consumes data from these two sources:
+				<ul>
+					<li><a href="http://demo1555654.mockable.io/getemployees" target="_blank">http://demo1555654.mockable.io/getemployees</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Demonstrates understanding of module and component architecture</p>
+		<ul class="content-list">
+			<li>Application is divided into the following structure:</li>
+			<li><i class="icon-android-folder-open"></i> app (routing, app component, app module)
+				<ul>
+					<li><i class="icon-android-folder-open"></i> dashboard (component, html, css)</li>
+					<li><i class="icon-android-folder-open"></i> employees
+						<ul>
+							<li><i class="icon-android-folder-open"></i> employee-list (component, html, css)</li>
+							<li><i class="icon-android-folder-open"></i> employee (component, html, css)</li>
+							<li><i class="icon-android-folder-open"></i> shared (service &amp; model)</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Demonstrate use of RxJS</p>
+		<ul class="content-list">
+			<li>Created observable stream based on click event of a button, and chained the buffer, map, filter operators to demonstrate it's value.</li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Include at least one unit test</p>
+		<ul>
+			<li>Unit test is installed at very for the root level AppComponent.</li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Use best practices - clean code, comments, error handling, etc</p>
+		<ul class="content-list">
+			<li>Best practices and architecture followed according to: <a href="https://angular.io/docs">Angular Docs</a>. I originally started with the Quick Start Guide, and as I made changes to create my own application, I followed architecture guidelines there defined.</li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Track how long it takes you to complete this task</p>
+		<ul class="content-list">
+			<li>[6] Monday: 7:30am - 11:30am; 2:30pm - 4:30pm; (Lessons in Angular4/Typescript, Initial Scaffolding)</li>
+			<li>[] Wednesday: 9:00am - 1:00pm; 2:00pm - 7:30pm; (Dashboard, EmployeeList, Http.Get, and RxJS implementation, initial push)</li>
+		</ul>
+
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Put the project on Github and send it back for review</p>
+		<ul class="content-list">
+			<li><a href="https://github.com/epitrochoider/prime-healthcare-challenge" target="_blank">https://github.com/epitrochoider/prime-healthcare-challenge</a></li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Utilizes component routing</p>
+		<ul class="content-list">
+			<li>Using routing for navigation of application</li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Demonstrate data binding</p>
+		<ul class="content-list">
+			<li>Data binding implemented in EmployeeListComponent and EmployeeDetailComponent</li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Demonstrate passing data between components with Inputs</p>
+		<ul class="content-list">
+			<li>@Inputs passing of data in Clicker module: the counter indicator is passed through a child component.</li>
+		</ul>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Demonstrate a basic understanding of HTML/CSS for UI layout and styling</p>
+		<ul class="content-list">
+			<li>Implemneted bootstrap framework and an basic admin theme for a straightforward interface.</li>
+		</ul>
+	</li>
+</ol>
+
+<br />
+
+<h4>Extra credit for:</h4>
+<ol>
+	<li>
+		<p><i class="icon-close red"></i> Using zone.js</p>
+	</li>
+	<li>
+		<p><i class="icon-checkmark green"></i> Demonstrate use of functional programming and be prepared to share why it's a good fit for the case you choose</p>
+		<ul class="content-list">
+			<li>I used functional programming in the defenition of the doubleClickStream generated in the clicker module. I eventually found help from a StackOverflow post on this.</li>
+		</ul>
+	</li>
+</ol>

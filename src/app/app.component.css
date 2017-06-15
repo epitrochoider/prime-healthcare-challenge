@@ -1,0 +1,14 @@
+nav[_ngcontent-c0]   a[_ngcontent-c0] {
+  background: none;
+}
+
+.header-navbar .nav.navbar-nav.float-xs-right {
+  margin-top:12px;
+}
+
+.app-title {
+	position: absolute;
+    padding: 0.5rem;
+    margin-top: 8px;
+    font-size: 135%;
+}

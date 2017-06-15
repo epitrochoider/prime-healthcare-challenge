@@ -1,0 +1,19 @@
+<h2>Employees</h2>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Title</th>
+			<th>Email</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let employee of employees">
+			<td><a href="javascript:void(0);" (click)="gotoDetail(employee.id)">{{employee.firstName}} {{employee.lastName}}</a></td>
+			<td><span>{{employee.title}}</span></td>
+			<td><span>{{employee.email}}</span></td>
+			<td><a href="javascript:void(0);" (click)="gotoDetail(employee.id)"><span class="fa fa-edit"></span></a></td>
+		</tr>
+	</tbody>
+</table>
