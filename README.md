@@ -38,3 +38,9 @@ Navigation: Doctors, Nurses, Staff, Employee Reports
 # Prime Assessment Requirements:
 1. Using zone.js - Using, but not yet deliberately
 2. **Completed:** Demonstrate use of functional programming and be prepared to share why it's a good fit for the case you choose
+
+
+## View App
+To view the running app, clone/download, and run the following commands:
+ - npm install
+ - npm start
